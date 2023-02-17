@@ -154,7 +154,7 @@ const JobsSection = ({ color }) => {
                                 </div>
 
 
-                                <div className={openTab === 2 ? "grid items-center grid-cols-1 gap-12 lg:grid-cols-2s" : "hidden"} id="link2">
+                                <div className={openTab === 2 ? "grid items-center grid-cols-1 gap-12 lg:grid-cols-2" : "hidden"} id="link2">
                                 {
                                             expertData.map(expertData => <>
 
@@ -189,7 +189,7 @@ const JobsSection = ({ color }) => {
                                             </>)
                                         }
                                 </div>
-                                <div className={openTab === 3 ? "grid items-center grid-cols-1 gap-12 lg:grid-cols-2s" : "hidden"} id="link3">
+                                <div className={openTab === 3 ? "grid items-center grid-cols-1 gap-12 lg:grid-cols-2" : "hidden"} id="link3">
                                 {
                                             companies.map(companies => <>
 
