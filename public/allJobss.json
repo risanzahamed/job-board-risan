@@ -1,0 +1,119 @@
+[
+    {
+        "category": "Experienced-Jobs",
+        "position": "Senior Frontend Developer",
+        "company": "Uxper in Development & IT",
+        "location": "San Francisco",
+        "budegt": "$5000 - $12000/month",
+        "img": "https://civi.uxper.co/wp-content/uploads/2022/11/avatar_uxper.png"
+    },
+    {
+        "category": "Experienced-Jobs",
+        "position": "Senior UX/UI Designer",
+        "company": "Nightfall in Design & Creative",
+        "location": "Remote New York",
+        "budegt": "$3000 - $5000/month",
+        "img": "https://civi.uxper.co/wp-content/uploads/2022/10/cleo-logo.webp"
+    },
+    {
+        "category": "Experienced-Jobs",
+        "position": "Partnerships Coordinator",
+        "company": "Webflow in Marketing & Sales",
+        "location": "Part Time New York",
+        "budegt": "Max:$600/week",
+        "img": "https://civi.uxper.co/wp-content/uploads/2022/10/cleo-logo.webp"
+    },
+    {
+        "category": "Experienced-Jobs",
+        "position": "Sourcing Manager",
+        "company": "Superside in Development & IT",
+        "location": "Remote California",
+        "budegt": "Remote Seatle",
+        "img": "https://civi.uxper.co/wp-content/uploads/2022/11/avatar_uxper.png"
+    },
+    {
+        "category": "Experienced-Jobs",
+        "position": "Senior Product Manager",
+        "company": "Pulley in Product Management",
+        "location": "Full Time Boston",
+        "budegt": "Negotiable Price",
+        "img": "https://civi.uxper.co/wp-content/uploads/2022/10/mercury-logo.webp"
+    },
+    {
+        "category": "Experienced-Jobs",
+        "position": "Chief of Staff",
+        "company": "Netomi in Development & IT",
+        "location": "Full Time San Francisco",
+        "budegt": "$25 - $40/hours",
+        "img": "https://civi.uxper.co/wp-content/uploads/2022/10/yoko-co-logo.webp"
+    },
+    {
+        "category": "Fresher-Jobs",
+        "position": "Fresher Backend Go Developer",
+        "company": "Uxper in Development & IT",
+        "location": "San Francisco",
+        "budegt": "$100 - $200/month",
+        "img": "https://civi.uxper.co/wp-content/uploads/2022/11/avatar_uxper.png"
+    },
+    {
+        "category": "Fresher-Jobs",
+        "position": "UX/UI Designer",
+        "company": "Nightfall in Design & Creative",
+        "location": "Remote California",
+        "budegt": "$450 - $900/month",
+        "img": "https://civi.uxper.co/wp-content/uploads/2022/10/cleo-logo.webp"
+    },
+    {
+        "category": "Fresher-Jobs",
+        "position": "Junior Product Marketing Manager",
+        "company": "Descript in Marketing & Sales",
+        "location": "Full Time Chicago",
+        "budegt": "$250 - $300/week",
+        "img": "https://civi.uxper.co/wp-content/uploads/2022/10/cleo-logo.webp"
+    },
+    {
+        "category": "Fresher-Jobs",
+        "position": "Business Development Manager",
+        "company": "Uxper in Analytics Legal & Finance",
+        "location": "Remote California",
+        "budegt": "Negotiable Price",
+        "img": "https://civi.uxper.co/wp-content/uploads/2022/11/avatar_uxper.png"
+    },
+    {
+        "category": "Fresher-Jobs",
+        "position": "Blog Writer",
+        "company": "Uxper in Writing & Translation",
+        "location": "Remote Seatle",
+        "budegt": "$450 - $900/month",
+        "img": "https://civi.uxper.co/wp-content/uploads/2022/10/mercury-logo.webp"
+    },
+    {
+        "category": "Fresher-Jobs",
+        "position": "Product Manager for Custom Apps",
+        "company": "Yoko Co in Design & Creative",
+        "location": "Remote San Francisco",
+        "budegt": "Min:$600/month",
+        "img": "https://civi.uxper.co/wp-content/uploads/2022/10/yoko-co-logo.webp"
+    },
+    {
+        "category": "Top-IT-Companies",
+        "companyName": "OVO Technology",
+        "details": "OVO Technology is a large IT base Company in Bangladesh. Our Mission is to give people a smart life. For this circumstances our slogan is Technology for smart life. We are providing mainly IT based services such as Website Design and Development, Custom Online Software, Online Advertisements, Branded SMS Solutions, Domain Registration and Corporate Hosting and many more services. We have a professional expert developer team who are working and experienced in corporate level for several years.",
+        "location": "Dhaka, Bangladesh",
+        "img": "https://ovotechnology.com/img/img/logo.png"
+    },
+    {
+        "category": "Top-IT-Companies",
+        "companyName": "NIBiz Soft",
+        "details": "We, NIBiz Soft, have the pleasure to express ourselves as an absolute software development company in Dhaka Bangladesh that is specialized for IT Services like Software Development, Web design and development, Mobile Application, Digital Marketing, Domain and Hosting etc. It is situated in Uttara,Dhaka, Bangladesh and we are doing this business since more than 10 years.",
+        "location": "Dhaka",
+        "img": "https://www.nibizsoft.com/core/uploads/2016/02/logo-nbiz-e1455560405931.png"
+    },
+    {
+        "category": "Top-IT-Companies",
+        "companyName": "BDWEB IT",
+        "details": "BDWEB IT is one of the best IT Solution Service Provider company in the world which provide Domain Registration, Domain Reseller, SMTP Service, Shared, Reseller & VPS Hosting, Dedicated Server, Web Design & Development, Software Development,Bulk SMS, SMS & Email marketing At Affordable Cost. We believe in best service and clients satisfactory. That’s why all the staffs of BDWEB IT try to provide best IT solution and service worldwide with clients satisfactory.",
+        "location": "Rajshahi",
+        "img": "https://www.bdwebit.com/assets/img/logo.webp"
+    }
+]
