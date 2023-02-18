@@ -8,7 +8,7 @@ const JobSeekerPoster = ({ color }) => {
         <div>
             <>
 
-                <div className="flex flex-wrap px-4 mx-auto max-w-[1400px] sm:px-6">
+                <div className="lg:flex lg:flex-wrap block px-4 mx-auto max-w-[1400px] sm:px-6">
 
 
                     <div className="w-full">
@@ -57,20 +57,20 @@ const JobSeekerPoster = ({ color }) => {
                             </li>
 
                         </ul>
-                        <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 rounded">
+                        <div className="relative lg:flex lg:flex-col min-w-0 break-words bg-white w-full mb-6 rounded">
                             <div className="px-4 py-5 flex-auto">
                                 <div className="tab-content tab-space">
 
                                     <div >
-                                        <div className={openTab === 1 ? "grid items-center grid-cols-1 gap-5 lg:grid-cols-1" : "hidden"} id="link1">
+                                        <div className={openTab === 1 ? "lg:grid items-center block grid-cols-1 gap-5 lg:grid-cols-1" : "hidden"} id="link1">
 
 
                                             <div>
-                                                <div class="flex  overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
-                                                    <div class=" mt-4 bg-cover">
-                                                        <img className='p-5' src="https://jobzilla.wprdx.com/demo/wp-content/uploads/2022/08/ab-1.png" alt="" srcset="" />
+                                                <div class="lg:flex  overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+                                                    <div class=" mt-4   bg-cover">
+                                                        <img className='p-5 ' src="https://jobzilla.wprdx.com/demo/wp-content/uploads/2022/08/ab-1.png" alt="" srcset="" />
                                                     </div>
-                                                    <div class="w-2/3 p-4 mt-5 md:p-4">
+                                                    <div class="lg:w-2/3 p-4 mt-5 md:p-4">
 
                                                         <p className='lg:text-5xl loading mb-4 text-md  font-bold text-gray-800 dark:text-white'>Millions of jobs. Find the one that’s right for you.</p>
                                                         <h1 class="lg:text-2xl text-sm font-medium mb-2 text-gray-800 dark:text-white">
@@ -94,11 +94,11 @@ const JobSeekerPoster = ({ color }) => {
 
                                     <div className={openTab === 2 ? "grid items-center grid-cols-1 gap-12 lg:grid-cols-1" : "hidden"} id="link2">
                                         <div>
-                                            <div class="flex  overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+                                            <div class="lg:flex  overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
                                                 <div class=" mt-4 bg-cover">
                                                     <img className='p-5 ' src="https://jobzilla.wprdx.com/demo/wp-content/uploads/2022/08/main-bg.png" alt="" srcset="" />
                                                 </div>
-                                                <div class="w-2/3 p-4 mt-5 md:p-4">
+                                                <div class="lg:w-2/3 p-4 mt-5 md:p-4">
 
                                                     <p className='lg:text-5xl loading mb-4 text-md  font-bold text-gray-800 dark:text-white'>For Employers</p>
                                                     <h1 class="lg:text-2xl text-sm font-medium mb-2 text-gray-800 dark:text-white">

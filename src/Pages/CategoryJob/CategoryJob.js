@@ -13,11 +13,11 @@ const CategoryJob = () => {
                 data.map(data => <>
 
                     <div>
-                        <div class="flex  overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
-                            <div class="w-[200px] h-full mt-4 bg-cover">
+                        <div class="lg:flex  overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+                            <div class="lg:w-[200px] h-full mt-4 bg-cover">
                                 <img className='p-5' src={data.img} alt="" srcset="" />
                             </div>
-                            <div class="w-2/3 p-4 mt-5 md:p-4">
+                            <div class="lg:w-2/3 p-4 mt-5 md:p-4">
 
                                 <p className='lg:text-xl text-md mb-2 font-bold text-gray-800 dark:text-white'>{data.position ? data.position : data.companyName}</p>
                                 <h1 class="lg:text-md text-sm font-medium mb-2 text-gray-800 dark:text-white">Company : {data.company ? data.company : data.details.slice(0,150)}</h1>
