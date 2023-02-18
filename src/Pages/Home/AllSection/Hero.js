@@ -16,7 +16,7 @@ const Hero = () => {
                                 <p class="mt-8 text-base text-black sm:text-xl">Fill your job in hours, not weeks. Search for free.</p>
 
                                 <div class="mt-10 sm:flex sm:items-center sm:space-x-8">
-                                    <a href="#" title="" class="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-orange-500 hover:bg-orange-600 focus:bg-orange-600" role="button"> Start Exploring Job</a>
+                                    <a href="#jobseeker" title="" class="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 bg-orange-500 hover:bg-orange-600 focus:bg-orange-600" role="button"> Start Exploring Job</a>
 
                                     
                                 </div>

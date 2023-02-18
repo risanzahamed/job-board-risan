@@ -4,6 +4,7 @@ import ApplyForum from "../Pages/ApplyForum/ApplyForum";
 import CategoryJob from "../Pages/CategoryJob/CategoryJob";
 import ContactUs from "../Pages/ContactUs/ContactUs";
 import Home from "../Pages/Home/Home";
+import SingleCompanyPage from "../Pages/SingleCompanyPage/SingleCompanyPage";
 import Login from "../Shared/Authentication/Login/Login";
 import Register from "../Shared/Authentication/Register/Register";
 import Root from "./Root";
@@ -46,8 +47,12 @@ const router = createBrowserRouter([
             {
                 path: "/:id",
                 element: <CategoryJob></CategoryJob>,
-                loader: ({ params }) => fetch(`http://localhost:5000/alljobs/${params.id}`)
-
+                loader: ({ params }) => fetch(`https://job-board-risan-server.vercel.app/alljobs/${params.id}`)
+            },
+            {
+                path: "Top-IT-Companies/:id",
+                element: <SingleCompanyPage/>,
+                loader: ({ params }) => fetch(`https://job-board-risan-server.vercel.app/Top-IT-Companies/${params.id}`)
             },
         ],
     }

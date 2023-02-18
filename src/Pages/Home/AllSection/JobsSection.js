@@ -9,7 +9,7 @@ const JobsSection = ({ color }) => {
     const [fresherData, setfresherData] = useState([])
 
     useEffect(() => {
-        fetch(`http://localhost:5000/fresher-jobs`)
+        fetch(`https://job-board-risan-server.vercel.app/fresher-jobs`)
             .then(res => res.json())
             .then(data => {
                 setfresherData(data.data)
@@ -19,7 +19,7 @@ const JobsSection = ({ color }) => {
     const [expertData, setExpertData] = useState([])
 
     useEffect(() => {
-        fetch(`http://localhost:5000/expert-jobs`)
+        fetch(`https://job-board-risan-server.vercel.app/expert-jobs`)
             .then(res => res.json())
             .then(data => {
                 setExpertData(data.data)
@@ -29,7 +29,7 @@ const JobsSection = ({ color }) => {
     const [companies, setCompanies] = useState([])
 
     useEffect(() => {
-        fetch(`http://localhost:5000/companies`)
+        fetch(`https://job-board-risan-server.vercel.app/companies`)
             .then(res => res.json())
             .then(data => {
                 setCompanies(data.data)

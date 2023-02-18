@@ -6,11 +6,10 @@ const JobCategory = () => {
     const [jobs, setJobs] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/job-categorioes')
+        fetch('https://job-board-risan-server.vercel.app/job-categorioes')
             .then(res => res.json())
             .then(data => {
-                setJobs(data.data
-                    )
+                setJobs(data.data)
             })
     }, [])
 

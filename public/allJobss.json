@@ -115,5 +115,26 @@
         "details": "BDWEB IT is one of the best IT Solution Service Provider company in the world which provide Domain Registration, Domain Reseller, SMTP Service, Shared, Reseller & VPS Hosting, Dedicated Server, Web Design & Development, Software Development,Bulk SMS, SMS & Email marketing At Affordable Cost. We believe in best service and clients satisfactory. That’s why all the staffs of BDWEB IT try to provide best IT solution and service worldwide with clients satisfactory.",
         "location": "Rajshahi",
         "img": "https://www.bdwebit.com/assets/img/logo.webp"
+    },
+    {
+        "category": "Top-IT-Companies",
+        "companyName": "Oracle",
+        "details": "Oracle Corporation, one of the top 10 IT companies in the world, is headquartered in Redwood Shores, California, is a well-known American multinational company.",
+        "location": "Austin, Texas",
+        "img": "https://1000logos.net/wp-content/uploads/2017/04/Font-Oracle-Logo.jpg"
+    },
+    {
+        "category": "Top-IT-Companies",
+        "companyName": "IBM",
+        "details": "Another eminent and renowned IT company in the top 10 IT companies in the world is IBM. International Business Machines abbreviated as IBM. This is an American multinational company that operates in over 150 countries.",
+        "location": "New York City",
+        "img": "https://www.ibm.com/brand/experience-guides/developer/b1db1ae501d522a1a4b49613fe07c9f1/01_8-bar-positive.svg"
+    },
+    {
+        "category": "Top-IT-Companies",
+        "companyName": "Microsoft Corporation",
+        "details": "Microsoft Windows, Microsoft Office, and Internet Explorer, among other products, are used by nearly every business and professional around the world. Microsoft was established in 1975, by Bill Gates and Paul Allen, and it has grown its market share by expanding its services beyond the operating system industry to other types of software's. It also used inorganic expansion to increase revenue by purchasing a number of firms.",
+        "location": "Redmond, Washington",
+        "img": "https://static.javatpoint.com/top10-technologies/images/top-10-it-companies-in-the-world1.png"
     }
 ]

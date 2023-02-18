@@ -20,7 +20,7 @@ const CategoryJob = () => {
                             <div class="w-2/3 p-4 mt-5 md:p-4">
 
                                 <p className='lg:text-xl text-md mb-2 font-bold text-gray-800 dark:text-white'>{data.position ? data.position : data.companyName}</p>
-                                <h1 class="lg:text-md text-sm font-medium mb-2 text-gray-800 dark:text-white">Company : {data.company ? data.company : data.details}</h1>
+                                <h1 class="lg:text-md text-sm font-medium mb-2 text-gray-800 dark:text-white">Company : {data.company ? data.company : data.details.slice(0,150)}</h1>
 
                                 <div class="lg:flex mt-5    item-center">
                                     <button class="px-2 py-1 mt-5 text-sm text-black text-left transition-colors duration-300 transform bg-[#7dffd4] rounded dark:bg-gray-700  focus:outline-none focus:bg-gray-700 dark:focus:bg-gray-600 mr-10">{data.location}</button>
@@ -40,7 +40,7 @@ const CategoryJob = () => {
                                         </>
                                         : <>
                                         {
-                                            data.company ? <Link to="/login"><button className=' btn btn-primary mt-6 px-10'>Apply</button></Link> : <></>
+                                            data.company ? <Link to="/login"><button className=' btn btn-primary mt-6 px-10'>Apply</button></Link> : <Link to={data._id}><button className=' btn btn-primary mt-6 px-10'>View Details</button></Link>
                                         }
                                         </>
                                 }

@@ -1,4 +1,5 @@
 import React, { useContext, useState } from 'react';
+import { toast } from 'react-hot-toast';
 import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../../context/AuthContext';
 
@@ -16,14 +17,14 @@ const Login = () => {
         Userlogin(email, password)
             .then(result => {
                 const user = result.user;
-                alert('User login Successfully!')
+                toast.success('User login Successfully!')
                 navigate("/")
                 console.log(user);
                 form.reset()
             })
             .catch(error => {
                 console.log(error)
-                alert('Something was wrong! Please try again!')
+                toast.error('Something was wrong! Please try again!')
 
                 form.reset()
             });
@@ -35,14 +36,14 @@ const Login = () => {
         googleLogin()
             .then(result => {
                 const user = result.user;
-                alert('User login Successfully!')
+                toast.success('User login Successfully!')
                 navigate("/")
                 console.log(user);
 
             })
             .catch(error => {
                 console.log(error)
-                alert('Something was wrong! Please try again!')
+                toast.error('Something was wrong! Please try again!')
             });
     }
     return (

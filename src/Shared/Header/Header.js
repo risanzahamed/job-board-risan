@@ -1,4 +1,5 @@
 import React, { useContext, useRef, useState } from 'react';
+import { toast } from 'react-hot-toast';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
 
@@ -7,7 +8,7 @@ const Header = () => {
 
     const handleUserLogout = () => {
         UserlogOut()
-            .then(alert('User logged out!'))
+            .then(toast.success('User logged out!'))
             .catch(error => console.log(error))
     }
 
@@ -54,16 +55,8 @@ const Header = () => {
 
 
 
-                                {/* {
-                                    user?.uid ? <button onClick={handleUserLogout} cursor-pointer className="py-3 px-4 text-center text-white bg-black hover:bg-indigo-700 rounded-md shadow block lg:inline">LogOut</button> : <>
-                                        <div className="hidden lg:ml-auto lg:flex lg:items-center lg:space-x-8 xl:space-x-10">
-                                            <Link to="/login" title="" className="py-3 px-4 text-center text-white bg-black hover:bg-indigo-700 rounded-md shadow block lg:inline"> Sign in</Link>
-                                            <Link to="/register" className="py-3 px-4 text-center text-white bg-black hover:bg-indigo-700 rounded-md shadow block lg:inline">Create free account</Link>
-                                        </div>
-                                    </>
-                                } */}
 
-{
+                                {
                                     user?.uid ?
 
                                         <li className="mt-4  p-3 lg:mt-0">
@@ -96,8 +89,8 @@ const Header = () => {
 
                                 <div className="form-control w-52">
                                     <label className="cursor-pointer label ">
-                                        <a href="#jobseeker"><span  className="label-text">Job Seeker</span></a>
-                                        
+                                        <a href="#jobseeker"><span className="label-text">Job Seeker</span></a>
+
                                         <input type="checkbox" className="toggle toggle-primary" checked />
                                         <span className="label-text"> Job Poster</span>
                                     </label>
@@ -105,7 +98,7 @@ const Header = () => {
 
                             </ul>
 
-                            
+
                         </div>
                     </div>
 
